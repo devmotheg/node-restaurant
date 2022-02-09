@@ -1,0 +1,21 @@
+<!--!
+  @author Mohamed Muntasir
+  @link https://github.com/devmotheg
+  -->
+
+<figure class="card">
+  <div class="card__title-box">
+    <h2 class="card__title">{h::productName}</h2>
+  </div>
+  <div class="card__details">
+    <div class="card__detail-box">
+      <h3 class="card__detail">{h::quantity} of {h::image} per 🍽️</h3>
+    </div>
+    <div class="card__detail-box">
+      <h3 class="card__detail card__detail--price">{h::price}€</h3>
+    </div>
+  </div>
+  <a class="card__link" href="/product?id={h::id}">
+    <span>Detail <i class="emoji-right">👉</i></span>
+  </a>
+</figure>

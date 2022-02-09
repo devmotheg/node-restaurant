@@ -1,0 +1,188 @@
+<!--!
+  @author Mohamed Muntasir
+  @link https://github.com/devmotheg
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/fire_1f525.png"
+    type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900" rel="stylesheet" />
+  <title>NODE RESTAURANT</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+    }
+
+    html {
+      font-size: 62.5%;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 5rem 5rem 7rem;
+      line-height: 1.7;
+      font-family: "Nunito Sans", sans-serif;
+      color: #555;
+      min-height: 100vh;
+      background-image: linear-gradient(to bottom right, #e1615d, #e3ae00);
+    }
+
+    h1 {
+      font-family: "Megrim", sans-serif;
+      font-size: 6rem;
+      color: white;
+      transform: skewY(-5deg);
+      text-align: center;
+      position: relative;
+      word-spacing: 3px;
+    }
+
+    h1::before {
+      content: "";
+      display: block;
+      height: 65%;
+      width: 49%;
+      position: absolute;
+      top: 105%;
+      left: 50%;
+      background-image: linear-gradient(to bottom, #e1615d, #e3ae00);
+      opacity: 0.8;
+      z-index: -1;
+      transform: skewY(370deg) translate(-50%, -50%);
+    }
+
+    .container {
+      width: 95rem;
+      margin: 0 auto;
+    }
+
+    .cards-container {
+      margin-top: 8rem;
+    }
+
+    .card {
+      box-shadow: 0 2rem 4rem 0.5rem rgba(0, 0, 0, 0.2);
+      margin-bottom: 5rem;
+      transform: skewX(-20deg);
+      display: flex;
+      transition: all 0.5s;
+    }
+
+    .card__title-box {
+      background-image: linear-gradient(to bottom, #e1615d, #e3ae00);
+      display: flex;
+      align-items: center;
+      padding: 0 3rem;
+    }
+
+    .card__title {
+      font-family: "Megrim", sans-serif;
+      color: white;
+      font-size: 3.25rem;
+      transform: skewX(20deg);
+    }
+
+    .card__details {
+      flex: 1;
+      background: #eee;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card__detail-box {
+      border-right: 0.3rem solid #ddd;
+      display: flex;
+      align-items: center;
+    }
+
+    .card__detail-box:last-child {
+      border: none;
+    }
+
+    .card__detail {
+      font-weight: 400;
+      font-size: 1.8rem;
+      transform: skewX(20deg);
+      padding: 1.75rem;
+    }
+
+    .card__detail--price {
+      font-weight: 900;
+      font-size: 1.9rem;
+    }
+
+    .card__link:link,
+    .card__link:visited {
+      flex: 0.4;
+      background-color: #e3ae00;
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 2.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+
+    .card__link:hover,
+    .card__link:active {
+      background-color: #e1615d;
+    }
+
+    .card__link span {
+      transform: skewX(20deg);
+    }
+
+    .card:hover {
+      transform: skewX(-20deg) scale(1.08);
+    }
+
+    .emoji-left {
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+
+    .emoji-right {
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+
+    .credits {
+      font-size: 2rem;
+      width: fit-content;
+      margin-top: 4rem;
+      margin-left: auto;
+      color: #ffffff;
+    }
+
+    .credits a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Node Restaurant</h1>
+    <div class="cards-container">{h::cards}</div>
+    <p class="credits">Made by <a href="https://github.com/devmotheg">Mohamed Muntasir</a>.</p>
+  </div>
+</body>
+
+</html>

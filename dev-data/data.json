@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "productName": "Chicken Meal",
+    "image": "🍗",
+    "from": "Brazil",
+    "calories": "1183 cal",
+    "quantity": "12 pieces",
+    "price": "6.50",
+    "description": "Chicken meal comes with fries, a bun and 2 garlic sauces."
+  },
+  {
+    "id": 1,
+    "productName": "Shrimp Meal",
+    "image": "🍤",
+    "from": "Thailand",
+    "calories": "1059 cal",
+    "quantity": "12 pieces",
+    "price": "5.00",
+    "description": "Jumbo shrimp pieces come with fries, a bun and your choice of 2 sauces (cocktail/nugget/garlic sauce)."
+  },
+  {
+    "id": 2,
+    "productName": "Hot Corn",
+    "image": "🌽",
+    "from": "China",
+    "calories": "196 cal",
+    "quantity": "6 pieces",
+    "price": "5.50",
+    "description": "Served piping hot with a pack of butter on the side to spread on top."
+  },
+  {
+    "id": 3,
+    "productName": "Ice Cream",
+    "image": "🍨",
+    "from": "Australia",
+    "calories": "231 cal",
+    "quantity": "6 pieces",
+    "price": "3.00",
+    "description": "Creamy, velvety vanilla ice cream – eat it on its own or ask for it drizzled with chocolate sauce or strawberry sauce. To be enjoyed at any time or place."
+  },
+  {
+    "id": 4,
+    "productName": "Oragnic Drink",
+    "image": "🍹",
+    "from": "Germany",
+    "calories": "180 cal",
+    "quantity": "6 pieces",
+    "price": "2.00",
+    "description": "A selection of mango, orange, apple and mixed fruit juice are available as an addition to your meal."
+  }
+]
