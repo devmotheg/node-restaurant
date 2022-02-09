@@ -1,6 +1,6 @@
 # Node Restaurant
 
-My first Node.js project, inspired from Jonas' node course :)
+My first Node.js project, inspired from Jonas' node course >:-)
 
 ## Author
 
